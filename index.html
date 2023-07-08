@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tareas</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+    <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>App Tareas 🍉</h1>
+
+        <div id="contenedor_tareas"></div>
+
+        <form id="form_tareas">
+            <input type="text" id="input_tareas" placeholder="Nueva Tarea" autocomplete="off" required>
+            <button type="submit">Agregar</button>
+        </form>
+
+        <form id="form_editar_tarea" style="display: none;">
+            <input type="text" id="input_editar_tarea" placeholder="Nuevo titulo tarea" autocomplete="off" required>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    
+    <div class="user">
+        <select id="user_select"></select>
+
+        <form id="form_usuario">
+            <input type="text" id="input_usuario" placeholder="ingrese su nombre" autocomplete="off" required>
+            <button type="submit">Agregar Usuario</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    
+</body>
+</html>

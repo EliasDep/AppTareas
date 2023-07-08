@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #69dc9e;
+}
+
+/* ESTILOS APP */
+
+.container {
+    background-color: #fffafb;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #070707;
+}
+
+#contenedor_tareas {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #edede9;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tareas {
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #070707;
+}
+
+#form_tareas {
+    margin-top: 20px;
+    display: flex;
+}
+
+#input_tareas {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #070707;
+    margin-right: 5px;
+    margin-left: 15px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#form_tareas button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #69dc9e;
+    color: #070707;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+/* ESTILOS USUARIO */
+
+.user {
+    background-color: #fffafb;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#user_select {
+    margin-top: 20px;
+}
+
+#form_usuario {
+    margin-top: 10px;
+}
+
+#form_usuario input {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#form_usuario button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #69dc9e;
+    color: #070707;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+/* ESTILOS TAREA AGREGADA */
+
+#contenedor_tareas .tarea .btn_eliminar,
+.btn_editar{
+    background-color: #d74e09;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #070707;
+    padding: 3px 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.btn_editar {
+    background-color: #f2bb05;
+}
+
+#form_editar_tarea {
+    text-align: center;
+}
+
+#input_editar_tarea {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#form_editar_tarea button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #69dc9e;
+    color: #070707;
+    border: none;
+    cursor: pointer;
+}

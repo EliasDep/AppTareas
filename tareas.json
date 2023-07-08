@@ -1,0 +1,29 @@
+{
+    "tareas": [
+        {
+            "id": 1,
+            "nombre": "Hacer las Compras",
+            "completada": false
+        },
+        {
+            "id": 2,
+            "nombre": "Limpiar la Cocina",
+            "completada": false
+        },
+        {
+            "id": 3,
+            "nombre": "Hacer las Compras",
+            "completada": false
+        },
+        {
+            "id": 4,
+            "nombre": "Estudiar Inlges",
+            "completada": false
+        },
+        {
+            "id": 5,
+            "nombre": "Salir a Correr",
+            "completada": false
+        }
+    ]
+}
